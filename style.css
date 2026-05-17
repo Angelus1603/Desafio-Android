@@ -145,25 +145,29 @@ h2{
 article{
     background-color: white; 
     display: block;
-    padding: 5em;
     margin: 0 6em;
     text-align: center;
 }
 
 @media(max-width: 768px){
     article{
-        padding: 2em;
+        /*padding: 2em;*/
         margin: 0 1em;
         text-align: center;
     }
     h1#cabecalho{
         font-size: 32px;
     }
+
+    main{
+        margin: 0 10px 30px;
+        border-radius: 10px;
+    }
 }
 
 @media(max-width: 480px){
     article{
-        padding: 1em;
+        /*padding: 1em;*/
         margin: 0;
     }
 
@@ -173,6 +177,9 @@ article{
 
     h1#cabecalho{
         font-size: 26px;
+    }
+    picture img{
+        width: 75%;
     }
 }
 
